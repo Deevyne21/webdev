@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container{
+    background-color: rgb(0,0,250);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    display: wrap;
+    /* position: relative;  */
+    padding: 50px 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container .left{
+    width: 40%;
+    height: auto;
+    background-color: yellow;
+}
+
+.container .right{
+    width: 60%;
+    height: auto;
+    background-color: brown;
+}
+.container .right .box1{
+    width: 100%;
+    height: 200px;
+    /* display: flex; */
+    background-color: green;
+} 
+
+.container .right .box2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: gray;
+} 
+.container .right .box2 .box2a{
+    width: 20%;
+    /* height: 100px; */
+    background-color: purple;
+}
+
+.container .right .box2 .box2b {
+     width: 80%; 
+    /* height: 150px; */
+    background-color: pink;
+}
+
+.container .right .box3{
+    width: 100%;
+    display: flex;
+    /* height: 100px; */
+    background-color: palegreen;
+}
+.container .right .box3 .boxc{
+    width: 20%;
+    /* height: 100px; */
+    background-color: gray;
+}
+
+.container .right .box3 .boxd {
+    width: 80%;
+    /* height: 150px; */
+    background-color: midnightblue;
+}
+.container .right .box4{
+    width: 100%;
+    display: flex;
+    /* height: 100px; */
+    background-color: black;
+}
+.container .right .box4 .boxe{
+    width: 80%;
+    /* display: flex; */
+    /* height: 100px; */
+    background-color: red;
+}
+
+.container .right .box4 .boxf{
+    width: 20%;
+    /* display: flex; */
+    /* height: 100px; */
+    background-color: darkmagenta;
+}
+.container .right .box5{
+    width: 100%;
+    display: flex;
+    /* height: 100px; */
+    background-color: palegreen;
+}
+
+.container .right .box5 .boxg{
+    width: 20%;
+    /* display: flex; */
+    /* height: 100px; */
+    background-color: palegreen;
+}
+.container .right .box5 .boxh{
+    width: 80%;
+    /* display: flex; */
+    /* height: 100px; */
+    background-color: blueviolet;
+}
+
+/*  .container .box1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(1, 1, 1);
+    top: 10px;
+    z-index: 10;  */   
+/* } */
+
+/* .container .box2{
+    width: 80px;
+    height: 100px;
+    position: relative;
+    z-index: 0px;
+    top: -15px;
+    margin-left: 10px;
+    background-color:yellow;
+   
+
+} .container .box3{ 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color:green;
+       
+}
+
+.container .box4{
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    right: 5px;
+    position: fixed;
+    background-color: brown; 
+} 
+
+
+
+
+
+
+
+
+/* .fa-icons::before { */
+    content: "\f86d"; } */
